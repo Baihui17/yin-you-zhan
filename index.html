@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-black">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tile Jumper 3D - Hop on the Beat in This Addictive Rhythm Game</title>
+    <meta name="description" content="Play Tile Jumper 3D online for free! Test your reflexes and rhythm as you hop across an endless path of tiles. How far can you go in this addicting 3D music game?">
+    <link rel="canonical" href="https://your-chosen-domain.com"> <link rel="icon" href="/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+        body {
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+        /* Custom style for the game container to maintain aspect ratio */
+        .game-container {
+            position: relative;
+            width: 100%;
+            height: 0;
+            padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+        }
+        .game-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800 dark:bg-black dark:text-gray-200 antialiased leading-relaxed">
+
+    <header class="text-center py-8 md:py-16 px-4">
+        <h1 class="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white mb-4 tracking-tight">
+            Tile Jumper 3D
+        </h1>
+        <p class="max-w-2xl mx-auto text-lg md:text-xl text-gray-600 dark:text-gray-400">
+            An addictive rhythm-based adventure where every hop is a beat.
+        </p>
+    </header>
+
+    <main class="container mx-auto px-4">
+
+        <section id="play-game" class="mb-12 md:mb-16">
+            <div class="game-container rounded-lg shadow-2xl overflow-hidden border border-gray-200 dark:border-gray-800">
+                <iframe 
+                    src="https://www.crazygames.com/embed/tile-jumper-3d" 
+                    style="width: 100%; height: 100%;" 
+                    frameborder="0" 
+                    allow="gamepad *; autoplay; fullscreen; microphone;"
+                    title="Tile Jumper 3D Game">
+                </iframe>
+            </div>
+        </section>
+
+        <section id="about" class="max-w-4xl mx-auto mb-12 md:mb-16">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-6 text-center">
+                About the Game
+            </h2>
+            <div class="space-y-6 text-gray-700 dark:text-gray-300 text-lg">
+                <p>
+                    <strong>Tile Jumper 3D</strong> is an electrifying and fast-paced arcade game that will put your reflexes and timing to the ultimate test. The premise is simple yet captivating: control a bouncing ball and guide it across an endless, winding path of tiles suspended in a vibrant 3D world. Your goal is to jump for as long as possible without falling into the abyss.
+                </p>
+                <p>
+                    As you progress, the path becomes more challenging, the speed increases, and the tiles require more precise jumps. Paired with an energetic soundtrack, each successful hop feels like a satisfying beat drop, creating an immersive and hypnotic gameplay experience. Are you ready to find your flow and set a new high score?
+                </p>
+            </div>
+        </section>
+        
+        <section id="how-to-play" class="max-w-4xl mx-auto mb-12 md:mb-16">
+            <h2 class="text-3xl font-bold text-gray-900 dark:text-white mb-6 text-center">
+                How to Play
+            </h2>
+            <div class="flex flex-col md:flex-row gap-8 text-center">
+                <div class="flex-1 bg-gray-100 dark:bg-gray-900 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold text-blue-600 dark:text-blue-400 mb-2">Controls</h3>
+                    <p class="text-gray-700 dark:text-gray-300">
+                        Simply use your <strong>Mouse</strong>. Press and hold the left mouse button, then drag left or right to guide the ball onto the next tile. Release to land the jump.
+                    </p>
+                </div>
+                <div class="flex-1 bg-gray-100 dark:bg-gray-900 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold text-blue-600 dark:text-blue-400 mb-2">Objective</h3>
+                    <p class="text-gray-700 dark:text-gray-300">
+                        Your mission is to survive for as long as possible. Jump from tile to tile, collect gems, and avoid falling off the path. The further you go, the higher your score!
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="text-center py-8 mt-8 border-t border-gray-200 dark:border-gray-800">
+        <p class="text-gray-500 dark:text-gray-400">
+            &copy; <script>document.write(new Date().getFullYear())</script> Your Website Name. All Rights Reserved. </p>
+    </footer>
+
+</body>
+</html>
